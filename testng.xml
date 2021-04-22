@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteRaj">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ca.walmart.qa.testcases.RecommendationPageTestCases"/>
+      <class name="ca.walmart.qa.testcases.HomePageTestCases"/>
+      <class name="ca.walmart.qa.testcases.LoginPageTestCases"/>
+      <class name="ca.walmart.qa.testcases.LaptopPageTestCases"/>
+      <class name="ca.walmart.qa.testcases.ShirtPageTestCases"/>
+      <class name="ca.walmart.qa.testcases.ShoePageTestCases"/>
+       <class name="ca.walmart.qa.testcases.CellphoneTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

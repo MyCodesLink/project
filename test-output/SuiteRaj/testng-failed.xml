@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteRaj]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ca.walmart.qa.testcases.LoginPageTestCases">
+        <methods>
+          <include name="Login_TC15_ErrorMessagePhone"/>
+          <include name="Login_TC26_SpecialCharacterPassword"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ca.walmart.qa.testcases.LoginPageTestCases -->
+      <class name="ca.walmart.qa.testcases.RecommendationPageTestCases">
+        <methods>
+          <include name="OrderHistory_TC62_SelectYear"/>
+          <include name="PersonalSetting_TC69_ViewAndAccess"/>
+          <include name="MyList_TC65_ViewAndAccess"/>
+          <include name="tearDown"/>
+          <include name="Signout_TC75_ViewAndAccess"/>
+          <include name="MyList_TC66_Searchbox"/>
+          <include name="setUp"/>
+          <include name="OrderHistory_TC64_StartShoppingLink"/>
+        </methods>
+      </class> <!-- ca.walmart.qa.testcases.RecommendationPageTestCases -->
+      <class name="ca.walmart.qa.testcases.HomePageTestCases">
+        <methods>
+          <include name="Search_TC34_ItemNumber"/>
+          <include name="setUp"/>
+          <include name="Login_TC31_signinYouraccount"/>
+          <include name="tearDown"/>
+          <include name="Search_TC35_PartialitemNumber"/>
+          <include name="Access_TC60_RecommendationPage"/>
+        </methods>
+      </class> <!-- ca.walmart.qa.testcases.HomePageTestCases -->
+      <class name="ca.walmart.qa.testcases.CellphoneTestCases">
+        <methods>
+          <include name="Cart_TC56_ValidateRemoveItem"/>
+          <include name="Cart_TC57_ValidateRemoveAll"/>
+          <include name="Cart_TC55_ValidateCartFunctionality"/>
+          <include name="Cart_TC58_validateItemInfo"/>
+          <include name="Cart_TC54_ValidatecartPrice"/>
+          <include name="tearDown"/>
+          <include name="Cart_TC53_ValidateCartItem"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ca.walmart.qa.testcases.CellphoneTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SuiteRaj] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ca.walmart.qa.testcases.HomePageTestCases">
+        <methods>
+          <include name="Search_TC34_ItemNumber"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Search_TC35_PartialitemNumber"/>
+        </methods>
+      </class> <!-- ca.walmart.qa.testcases.HomePageTestCases -->
+      <class name="ca.walmart.qa.testcases.LoginPageTestCases">
+        <methods>
+          <include name="Login_TC5_FirstnameErrorMsg"/>
+          <include name="Login_TC15_ErrorMessagePhone"/>
+          <include name="tearDown"/>
+          <include name="Login_TC10_LastnameErrorMsg"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ca.walmart.qa.testcases.LoginPageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
